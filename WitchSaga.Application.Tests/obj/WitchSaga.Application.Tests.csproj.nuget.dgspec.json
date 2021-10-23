@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application.Tests\\WitchSaga.Application.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application.Tests\\WitchSaga.Application.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application.Tests\\WitchSaga.Application.Tests.csproj",
+        "projectName": "WitchSaga.Application.Tests",
+        "projectPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application.Tests\\WitchSaga.Application.Tests.csproj",
+        "packagesPath": "C:\\Users\\fpt2020\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fpt2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\WitchSaga.Application.csproj": {
+                "projectPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\WitchSaga.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\WitchSaga.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\WitchSaga.Application.csproj",
+        "projectName": "WitchSaga.Application",
+        "projectPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\WitchSaga.Application.csproj",
+        "packagesPath": "C:\\Users\\fpt2020\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fpt2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\WitchSaga.Common.csproj": {
+                "projectPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\WitchSaga.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\WitchSaga.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\WitchSaga.Common.csproj",
+        "projectName": "WitchSaga.Common",
+        "projectPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\WitchSaga.Common.csproj",
+        "packagesPath": "C:\\Users\\fpt2020\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fpt2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

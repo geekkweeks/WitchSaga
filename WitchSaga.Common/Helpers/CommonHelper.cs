@@ -13,7 +13,7 @@ namespace WitchSaga.Common.Helpers
             return b - a;
         }
 
-        public static double GetAverage(List<int> inputs)
+        public static decimal GetAverage(List<int> inputs)
         {
             return (inputs.Sum() / inputs.Count());
         }

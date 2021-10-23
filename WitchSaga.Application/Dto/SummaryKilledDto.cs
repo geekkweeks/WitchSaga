@@ -8,7 +8,7 @@ namespace WitchSaga.Application.Dto
 {
     public class SummaryKilledDto : BaseDto
     {
-        public double AverageKilled { get; set; }
+        public decimal AverageKilled { get; set; }
         public List<PersonDto> Persons { get; set; }
     }
 }

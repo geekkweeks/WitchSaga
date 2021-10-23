@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using WitchSaga.Application.Dto;
-using WitchSaga.Application.KilledServices;
+using WitchSaga.Application.Services;
 
 namespace WitchSaga.ConsoleApp
 {

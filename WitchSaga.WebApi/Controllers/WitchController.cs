@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WitchSaga.Application.Dto;
-using WitchSaga.Application.KilledServices;
+using WitchSaga.Application.Services;
 
 namespace WitchSaga.WebApi.Controllers
 {

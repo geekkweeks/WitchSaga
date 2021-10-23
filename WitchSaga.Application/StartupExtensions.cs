@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WitchSaga.Application.KilledServices;
+using WitchSaga.Application.Services;
 
 namespace WitchSaga.Application
 {
