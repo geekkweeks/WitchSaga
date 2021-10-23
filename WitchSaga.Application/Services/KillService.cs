@@ -24,15 +24,23 @@ namespace WitchSaga.Application.Services
         public SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons)
         {
             _log.LogInformation("on GetPeopleKilled running.");
-
             var model = new SummaryKilledDto
             {
+                ResponseCode = 200,
                 Persons = persons
             };
-            
+
             foreach (var item in model.Persons.Select((value, i) => new { i, value }))
             {
                 item.value.YearBorn = CommonHelper.GetSubtraction(item.value.AgeOfDeath, item.value.YearOfDeath);
+                if (item.value.YearBorn < 0)
+                {
+                    model.AverageKilled = -1;
+                    model.ResponseMessage = "there is a person who born before the witch took control";
+                    model.SetError();
+                    return model;
+                }
+
                 item.value.PeopleKilled = GetPeopleKilled(item.value.YearBorn);
             }
 
@@ -53,7 +61,6 @@ namespace WitchSaga.Application.Services
             }
 
             model.AverageKilled = CommonHelper.GetAverage(persons.Select(s => s.PeopleKilled).ToList());
-            model.ResponseCode = 200;
             return model;
         }        
 
