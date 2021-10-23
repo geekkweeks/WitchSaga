@@ -1,7 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Serilog;
 using System;
 using System.IO;
+using WitchSaga.Application.KilledServices;
 
 namespace WitchSaga.ConsoleApp
 {
@@ -17,6 +20,21 @@ namespace WitchSaga.ConsoleApp
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .CreateLogger();
+
+            Log.Logger.Information("Witch Saga Application console starting");
+
+            //configure services
+            var host = Host.CreateDefaultBuilder()
+                .ConfigureServices((context, services) =>
+                {
+                    services.AddTransient<IKillService, KillService>();
+                })
+                .UseSerilog()
+                .Build();
+
+            var svc = ActivatorUtilities.CreateInstance<IKillService>(host.Services);
+            svc.Run();
+
         }
 
         //build config(talk to appsettings.json/manual connection
@@ -24,9 +42,11 @@ namespace WitchSaga.ConsoleApp
         {
             builder.SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("NET_ENVIRONTMENT") ?? "Production"}", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("NET_ENVIRONTMENT") ?? "Production.json"}", optional: false, reloadOnChange: true)
                 .AddEnvironmentVariables();
         }
 
     }
+
+
 }

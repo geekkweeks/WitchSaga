@@ -1517,6 +1517,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.Extensions.Hosting >= 5.0.0",
+      "Microsoft.Extensions.Logging >= 5.0.0",
       "Serilog.Extensions.Logging >= 3.0.1",
       "Serilog.Settings.Configuration >= 3.3.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
@@ -1567,6 +1568,10 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[5.0.0, )"
           },
