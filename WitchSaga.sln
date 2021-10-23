@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.ConsoleApp", "WitchSaga.ConsoleApp\WitchSaga.ConsoleApp.csproj", "{93707E7B-BEAE-4657-BA83-928F30EE9B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.Common", "WitchSaga.Common\WitchSaga.Common.csproj", "{92AA7F5D-6938-4647-A758-1B7462349D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0953512-E320-44EE-AF3A-C104B6D17A8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EBF6162-11FB-4439-AF30-A1D75B956BC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{15A29A63-4510-4EAE-93F9-D4837C1A2DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WitchSaga.WebApi", "WitchSaga.WebApi", "{5B556EA6-6B5F-4396-BCF7-DB85A18BC717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.WebApi", "WitchSaga.WebApi\WitchSaga.WebApi.csproj", "{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.Application", "WitchSaga.Application\WitchSaga.Application.csproj", "{1D4B223A-9050-432B-8196-6BBCF94AD158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93707E7B-BEAE-4657-BA83-928F30EE9B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93707E7B-BEAE-4657-BA83-928F30EE9B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93707E7B-BEAE-4657-BA83-928F30EE9B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93707E7B-BEAE-4657-BA83-928F30EE9B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AA7F5D-6938-4647-A758-1B7462349D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AA7F5D-6938-4647-A758-1B7462349D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AA7F5D-6938-4647-A758-1B7462349D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AA7F5D-6938-4647-A758-1B7462349D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4B223A-9050-432B-8196-6BBCF94AD158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4B223A-9050-432B-8196-6BBCF94AD158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4B223A-9050-432B-8196-6BBCF94AD158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4B223A-9050-432B-8196-6BBCF94AD158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93707E7B-BEAE-4657-BA83-928F30EE9B54} = {8EBF6162-11FB-4439-AF30-A1D75B956BC8}
+		{92AA7F5D-6938-4647-A758-1B7462349D94} = {8EBF6162-11FB-4439-AF30-A1D75B956BC8}
+		{5B556EA6-6B5F-4396-BCF7-DB85A18BC717} = {8EBF6162-11FB-4439-AF30-A1D75B956BC8}
+		{BF66F830-B3FF-4E00-8CA0-4B4DFBED63ED} = {5B556EA6-6B5F-4396-BCF7-DB85A18BC717}
+		{1D4B223A-9050-432B-8196-6BBCF94AD158} = {8EBF6162-11FB-4439-AF30-A1D75B956BC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1857FF8C-F42A-4166-BD91-A111D3682C5F}
+	EndGlobalSection
+EndGlobal

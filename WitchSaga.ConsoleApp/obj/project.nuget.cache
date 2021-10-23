@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iwc2+GWUp+EFhozrDibTbDQWo4P0Rb7uA0degIAaz5DN49cbb9RHuz3NddkYELpG3oummiq844ff9H2quPCr9Q==",
+  "success": true,
+  "projectFilePath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.ConsoleApp\\WitchSaga.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
