@@ -717,13 +717,24 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging": "5.0.0",
-          "Serilog.AspNetCore": "4.1.0"
+          "Serilog.AspNetCore": "4.1.0",
+          "WitchSaga.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WitchSaga.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/WitchSaga.Application.dll": {}
+        }
+      },
+      "WitchSaga.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WitchSaga.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WitchSaga.Common.dll": {}
         }
       }
     }
@@ -2218,6 +2229,11 @@
       "type": "project",
       "path": "../WitchSaga.Application/WitchSaga.Application.csproj",
       "msbuildProject": "../WitchSaga.Application/WitchSaga.Application.csproj"
+    },
+    "WitchSaga.Common/1.0.0": {
+      "type": "project",
+      "path": "../WitchSaga.Common/WitchSaga.Common.csproj",
+      "msbuildProject": "../WitchSaga.Common/WitchSaga.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {

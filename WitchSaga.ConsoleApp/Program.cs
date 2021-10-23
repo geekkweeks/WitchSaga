@@ -3,7 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using WitchSaga.Application.Dto;
 using WitchSaga.Application.KilledServices;
 
 namespace WitchSaga.ConsoleApp
@@ -30,14 +32,26 @@ namespace WitchSaga.ConsoleApp
                 .ConfigureServices((context, services) =>
                 {
                     services.AddTransient<IKillService, KillService>();
+                    services.AddTransient<IPeopleService, PeopleService>();
                 })
                 .UseSerilog()
                 .Build();
 
-            var svc = ActivatorUtilities.CreateInstance<KillService>(host.Services);
+            var killSvc = ActivatorUtilities.CreateInstance<KillService>(host.Services);
+
+            var inputs = new List<PersonDto> 
+            {
+                new PersonDto
+                {
+                    Name = "Person A",
+                    AgeOfDeath = 13,
+                    YearOfDeath = 17
+                }
+            };
+            killSvc.GetPeopleKilledInfo(inputs);           
             #endregion
 
-            svc.Run();
+
 
         }
 

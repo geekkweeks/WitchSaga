@@ -416,10 +416,16 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging": "5.0.0",
-          "Serilog.AspNetCore": "4.1.0"
+          "Serilog.AspNetCore": "4.1.0",
+          "WitchSaga.Common": "1.0.0"
         },
         "runtime": {
           "WitchSaga.Application.dll": {}
+        }
+      },
+      "WitchSaga.Common/1.0.0": {
+        "runtime": {
+          "WitchSaga.Common.dll": {}
         }
       }
     }
@@ -788,6 +794,11 @@
       "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
     },
     "WitchSaga.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WitchSaga.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

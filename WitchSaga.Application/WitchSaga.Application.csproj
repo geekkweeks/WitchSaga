@@ -10,4 +10,12 @@
     <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WitchSaga.Common\WitchSaga.Common.csproj" />
+  </ItemGroup>
+
 </Project>

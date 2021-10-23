@@ -1,7 +1,10 @@
-﻿namespace WitchSaga.Application.KilledServices
+﻿using System.Collections.Generic;
+using WitchSaga.Application.Dto;
+
+namespace WitchSaga.Application.KilledServices
 {
     public interface IKillService
     {
-        void Run();
+        SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons);
     }
 }
