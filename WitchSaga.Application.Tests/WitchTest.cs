@@ -8,7 +8,7 @@ using WitchSaga.Application.Services;
 namespace WitchSaga.Application.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class WitchTest
     {
         [TestMethod]
         public void TestExpected()
