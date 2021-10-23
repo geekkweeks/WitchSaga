@@ -1,0 +1,12 @@
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\WitchSaga.Application.deps.json
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\WitchSaga.Application.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\ref\WitchSaga.Application.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\WitchSaga.Application.pdb
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.csproj.AssemblyReference.cache
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.AssemblyInfoInputs.cache
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.AssemblyInfo.cs
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.csproj.CoreCompileInputs.cache
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\ref\WitchSaga.Application.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.pdb

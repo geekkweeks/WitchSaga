@@ -42,3 +42,7 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\b
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\obj\Debug\net5.0\WitchSaga.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Serilog.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
