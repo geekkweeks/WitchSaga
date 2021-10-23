@@ -25,10 +25,10 @@ namespace WitchSaga.WebApi.Controllers
         }
 
         [HttpPost]
-        [Route("get-killed-summary")]
+        [Route("get-summary")]
         public IActionResult PostDetail([FromBody] List<PersonDto> requests)
         {
-            if (requests == null)
+            if (requests == null || requests.Count == 0)
                 return BadRequest();
 
             try
