@@ -13,12 +13,10 @@ namespace WitchSaga.Application.Services
     public class PeopleService : IPeopleService
     {
         private readonly ILogger<PeopleService> _log;
-        private readonly IConfiguration _config;
 
-        public PeopleService(ILogger<PeopleService> log, IConfiguration config)
+        public PeopleService(ILogger<PeopleService> log)
         {
             _log = log;
-            _config = config;
         }
 
         public PersonDto GetPersonDetail(PersonDto model)

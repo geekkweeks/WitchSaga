@@ -26,7 +26,6 @@ namespace WitchSaga.Application.Services
             _log.LogInformation("on GetPeopleKilled running.");
             var model = new SummaryKilledDto
             {
-                ResponseCode = 200,
                 Persons = persons
             };
 
@@ -43,16 +42,16 @@ namespace WitchSaga.Application.Services
 
                 item.value.PeopleKilled = GetPeopleKilled(item.value.YearBorn);
             }
-
+            model.SetOk();
             model.Persons = model.Persons.OrderBy(o => o.YearBorn).ToList();
 
-            for (int i = 0; i < model.Persons.Select(s => s.YearBorn).OrderByDescending(s => s).FirstOrDefault(); i++)
+            for (int i = 1; i <= model.Persons.Select(s => s.YearBorn).OrderByDescending(s => s).FirstOrDefault(); i++)
             {
                 var data = model.Persons.Where(w => w.YearBorn == i).Any();
                 if (!data)
                 {
                     //add data
-                    persons.Add(new PersonDto
+                    model.Persons.Add(new PersonDto
                     {
                         YearBorn = i,
                         PeopleKilled = GetPeopleKilled(i),
@@ -86,11 +85,6 @@ namespace WitchSaga.Application.Services
             return 0;        
 
         }
-
-        //private decimal GetAverageKilled(List<int> persons)
-        //{
-        //    return CommonHelper.GetAverage(persons);
-        //}
         #endregion
     }
 }

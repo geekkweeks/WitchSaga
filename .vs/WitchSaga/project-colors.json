@@ -45,7 +45,17 @@
       "ProjectGuid": "2ca7701f-58a9-4676-8f6d-66a29357f450",
       "DisplayName": "WitchSaga.Application.Tests",
       "ColorIndex": 7
+    },
+    "8bef5c2d-64cc-42e4-8fad-9d9928380114": {
+      "ProjectGuid": "8bef5c2d-64cc-42e4-8fad-9d9928380114",
+      "DisplayName": "WitchSaga.Application.Tests",
+      "ColorIndex": 8
+    },
+    "7762b66c-d9f5-49d5-b56e-6889648aebdc": {
+      "ProjectGuid": "7762b66c-d9f5-49d5-b56e-6889648aebdc",
+      "DisplayName": "WitchSaga.Application.Tests",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }
