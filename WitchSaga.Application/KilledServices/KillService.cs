@@ -23,7 +23,7 @@ namespace WitchSaga.Application.KilledServices
         {
             for (int i = 0; i < int.Parse(_config.GetSection("LoopTimes").Value); i++)
             {
-                _log.LogInformation("Run number { runNumber }", i);
+                _log.LogInformation("Run number {runNumber}", i);
             }
         }
     }

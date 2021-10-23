@@ -32,7 +32,7 @@ namespace WitchSaga.ConsoleApp
                 .UseSerilog()
                 .Build();
 
-            var svc = ActivatorUtilities.CreateInstance<IKillService>(host.Services);
+            var svc = ActivatorUtilities.CreateInstance<KillService>(host.Services);
             svc.Run();
 
         }
