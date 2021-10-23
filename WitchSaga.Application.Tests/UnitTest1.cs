@@ -36,7 +36,7 @@ namespace WitchSaga.Application.Tests
             };
 
             var actualResult = svc.GetPeopleKilledInfo(requests);
-            Assert.AreEqual(200, (int)actualResult.StatusCode);
+            Assert.AreEqual(200, (int)actualResult.ResponseCode);
         }
 
 

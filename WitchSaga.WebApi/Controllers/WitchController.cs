@@ -25,7 +25,7 @@ namespace WitchSaga.WebApi.Controllers
         }
 
         [HttpPost]
-        [Route("get-killed-detail")]
+        [Route("get-killed-summary")]
         public IActionResult PostDetail([FromBody] List<PersonDto> requests)
         {
             if (requests == null)

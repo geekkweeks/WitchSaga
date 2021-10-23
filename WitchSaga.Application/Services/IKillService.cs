@@ -6,6 +6,6 @@ namespace WitchSaga.Application.Services
 {
     public interface IKillService
     {
-        DataResponse GetPeopleKilledInfo(List<PersonDto> persons);
+        SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons);
     }
 }

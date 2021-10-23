@@ -3,41 +3,36 @@ using System.Net;
 
 namespace WitchSaga.Common.Models
 {
-    public class DataResponse
+    public class BaseResponseModel
     {
-        public bool Result { get; set; }
-
-        public IList<string> Errors { get; set; }
-
-        public HttpStatusCode StatusCode { get; set; }
-
-        public DataResponse()
-        {
-
-        }
-
-        public DataResponse(bool result)
-            : this()
-        {
-            Result = result;
-            StatusCode = result ? HttpStatusCode.OK : HttpStatusCode.BadRequest;
-        }
+        public int ResponseCode { get; set; }
+        public string ResponseMessage { get; set; }
     }
 
-    public class DataResponse<T> : DataResponse
-        where T : class
+    public static class BaseResponseModelExtension
     {
-        public T Data { get; set; }
-
-        public DataResponse()
+        public static BaseResponseModel SetOk(this BaseResponseModel model, string message = null)
         {
+            model.ResponseCode = 200;
 
+            if (!string.IsNullOrEmpty(message))
+            {
+                model.ResponseMessage = message;
+            }
+
+            return model;
         }
 
-        public DataResponse(bool result)
-            : base(result)
+        public static BaseResponseModel SetError(this BaseResponseModel model, string message = null)
         {
+            model.ResponseCode = 500;
 
+            if (!string.IsNullOrEmpty(message))
+            {
+                model.ResponseMessage = message;
+            }
+
+            return model;
         }
     }
 }

@@ -26,8 +26,8 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleA
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.AssemblyInfoInputs.cache
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.AssemblyInfo.cs
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.csproj.CoreCompileInputs.cache
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.csproj.CopyComplete
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\ref\WitchSaga.ConsoleApp.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.pdb
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.genruntimeconfig.cache
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.csproj.CopyComplete

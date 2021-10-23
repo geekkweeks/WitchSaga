@@ -14,23 +14,14 @@ namespace WitchSaga.Application.Services
     public class KillService : IKillService
     {
         private readonly ILogger<KillService> _log;
-        //private readonly IConfiguration _config;
 
         public KillService(ILogger<KillService> log)
         {
             _log = log;
-            //_config = config;
         }
 
-        //public void Run()
-        //{
-        //    for (int i = 0; i < int.Parse(_config.GetSection("LoopTimes").Value); i++)
-        //    {
-        //        _log.LogInformation("Run number {runNumber}", i);
-        //    }
-        //}
-
-        public DataResponse GetPeopleKilledInfo(List<PersonDto> persons)
+        
+        public SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons)
         {
             _log.LogInformation("on GetPeopleKilled running.");
 
@@ -62,8 +53,8 @@ namespace WitchSaga.Application.Services
             }
 
             model.AverageKilled = CommonHelper.GetAverage(persons.Select(s => s.PeopleKilled).ToList());
-            var res = new DataResponse<SummaryKilledDto>(true) { Data = model };
-            return res;
+            model.ResponseCode = 200;
+            return model;
         }        
 
         #region Private Functions
