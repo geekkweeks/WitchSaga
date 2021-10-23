@@ -30,3 +30,4 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleA
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\ref\WitchSaga.ConsoleApp.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.pdb
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.genruntimeconfig.cache
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.ConsoleApp\obj\Debug\net5.0\WitchSaga.ConsoleApp.csproj.CopyComplete

@@ -56,8 +56,3 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\o
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\obj\Debug\net5.0\ref\WitchSaga.WebApi.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\obj\Debug\net5.0\WitchSaga.WebApi.pdb
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\obj\Debug\net5.0\WitchSaga.WebApi.genruntimeconfig.cache
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\release\web.config
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\release\appsettings.Development.json
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\release\appsettings.json
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\release\WitchSaga.WebApi.deps.json
-D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.WebApi\bin\Debug\net5.0\release\WitchSaga.WebApi.runtimeconfig.json
