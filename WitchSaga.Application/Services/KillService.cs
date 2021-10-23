@@ -24,6 +24,20 @@ namespace WitchSaga.Application.Services
         public SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons)
         {
             _log.LogInformation("on GetPeopleKilled running.");
+
+            //find duplicate age of death and year of death 
+            var duplicates = persons
+                .GroupBy(x => new { x.AgeOfDeath, x.YearOfDeath })
+                .Where(g => g.Count() > 1)
+                .Select(g => new { g.Key,})
+                .ToList();
+
+            if(duplicates.Any())
+            {
+                persons.Remove(persons.FirstOrDefault(f => f.YearOfDeath == duplicates.FirstOrDefault().Key.YearOfDeath && 
+                    f.AgeOfDeath == duplicates.FirstOrDefault().Key.AgeOfDeath));
+            }
+
             var model = new SummaryKilledDto
             {
                 Persons = persons
@@ -39,7 +53,6 @@ namespace WitchSaga.Application.Services
                     model.SetError();
                     return model;
                 }
-
                 item.value.PeopleKilled = GetPeopleKilled(item.value.YearBorn);
             }
             model.SetOk();

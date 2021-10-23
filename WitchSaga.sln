@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitchSaga.Common", "WitchSaga.Common\WitchSaga.Common.csproj", "{92AA7F5D-6938-4647-A758-1B7462349D94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0953512-E320-44EE-AF3A-C104B6D17A8F}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EBF6162-11FB-4439-AF30-A1D75B956BC8}"
 EndProject
@@ -19,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitchSaga.WebApi", "WitchSa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitchSaga.Application", "WitchSaga.Application\WitchSaga.Application.csproj", "{1D4B223A-9050-432B-8196-6BBCF94AD158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.Application.Tests", "WitchSaga.Application.Tests\WitchSaga.Application.Tests.csproj", "{7762B66C-D9F5-49D5-B56E-6889648AEBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitchSaga.Application.Tests", "WitchSaga.Application.Tests\WitchSaga.Application.Tests.csproj", "{7762B66C-D9F5-49D5-B56E-6889648AEBDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

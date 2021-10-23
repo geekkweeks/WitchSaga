@@ -187,6 +187,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
             "Serilog.Extensions.Logging": {
               "target": "Package",
               "version": "[3.0.1, )"

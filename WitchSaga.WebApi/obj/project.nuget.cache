@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bXLbslT/wVQdUjP4cbO+hH75XAf8z4IU+ZAJbBJaFTC04/PpspRFI2QoB7CmQNfEe8BPBkOR3e2iRkR/WNaBtw==",
+  "dgSpecHash": "MVTWekJU06Lz6FBo1mhgjiXOgMjIu+Rfe1pdAwOhflfb4t9SMBURlzsSICIWAfjZwwxm8DNXQFkpG8JmCAG3Rg==",
   "success": true,
   "projectFilePath": "D:\\PROJECT\\GEEKSEAT\\SOURCECODE\\WitchSagaApplication\\WitchSaga\\WitchSaga.WebApi\\WitchSaga.WebApi.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\fpt2020\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\fpt2020\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\fpt2020\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",

@@ -113,3 +113,5 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Applicat
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application.Tests\bin\Debug\net5.0\WitchSaga.Common.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application.Tests\bin\Debug\net5.0\WitchSaga.Application.pdb
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application.Tests\bin\Debug\net5.0\WitchSaga.Common.pdb
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application.Tests\bin\Debug\net5.0\Castle.Core.dll
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application.Tests\bin\Debug\net5.0\Moq.dll

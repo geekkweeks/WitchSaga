@@ -11,7 +11,7 @@ namespace WitchSaga.Application.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestWithDependencyInjectionLogger()
+        public void TestExpected()
         {
             var services = new ServiceCollection()
                 .AddLogging(config => config.AddConsole())
@@ -37,6 +37,37 @@ namespace WitchSaga.Application.Tests
 
             var actualResult = svc.GetPeopleKilledInfo(requests);
             Assert.AreEqual(200, (int)actualResult.ResponseCode);
+
+        }
+
+        [TestMethod]
+        public void TestUnExpected()
+        {
+            var services = new ServiceCollection()
+               .AddLogging(config => config.AddConsole())
+               .BuildServiceProvider();
+            using var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+            var svc = new KillService(loggerFactory.CreateLogger<KillService>());
+
+            var requests = new List<PersonDto>
+            {
+                new PersonDto
+                {
+                    Name = "Person 1",
+                    AgeOfDeath = 12,
+                    YearOfDeath = 11
+                },
+                new PersonDto
+                {
+                    Name = "Person 2",
+                    AgeOfDeath = 13,
+                    YearOfDeath = 17
+                }
+            };
+
+            var actualResult = svc.GetPeopleKilledInfo(requests);
+            Assert.AreEqual(-1, actualResult.AverageKilled);
+
         }
 
 
