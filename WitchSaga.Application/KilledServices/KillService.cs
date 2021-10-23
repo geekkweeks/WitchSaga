@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WitchSaga.Application.Dto;
 using WitchSaga.Common.Helpers;
+using WitchSaga.Common.Models;
 
 namespace WitchSaga.Application.KilledServices
 {
@@ -29,7 +30,7 @@ namespace WitchSaga.Application.KilledServices
             }
         }
 
-        public SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons)
+        public DataResponse GetPeopleKilledInfo(List<PersonDto> persons)
         {
             _log.LogInformation("on GetPeopleKilled running.");
 
@@ -44,7 +45,7 @@ namespace WitchSaga.Application.KilledServices
                 item.value.PeopleKilled = GetPeopleKilled(item.value.YearBorn);
             }
             model.AverageKilled = CommonHelper.GetAverage(persons.Select(s => s.PeopleKilled).ToList());
-            return model;
+            return new DataResponse<SummaryKilledDto>(true) { Data = model };
         }
 
         

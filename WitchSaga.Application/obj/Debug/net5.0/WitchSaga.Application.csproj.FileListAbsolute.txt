@@ -12,3 +12,4 @@ D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Applicat
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.pdb
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\WitchSaga.Common.dll
 D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\bin\Debug\net5.0\WitchSaga.Common.pdb
+D:\PROJECT\GEEKSEAT\SOURCECODE\WitchSagaApplication\WitchSaga\WitchSaga.Application\obj\Debug\net5.0\WitchSaga.Application.csproj.CopyComplete

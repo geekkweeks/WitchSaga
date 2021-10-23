@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WitchSaga.Application;
 
 namespace WitchSaga.WebApi
 {
@@ -27,6 +28,8 @@ namespace WitchSaga.WebApi
             services.AddRazorPages();
 
             services.AddLogging();
+
+            services.AddWitchs();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -60,6 +63,7 @@ namespace WitchSaga.WebApi
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
         }

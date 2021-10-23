@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using WitchSaga.Application.Dto;
+using WitchSaga.Common.Models;
 
 namespace WitchSaga.Application.KilledServices
 {
     public interface IKillService
     {
-        SummaryKilledDto GetPeopleKilledInfo(List<PersonDto> persons);
+        DataResponse GetPeopleKilledInfo(List<PersonDto> persons);
     }
 }
