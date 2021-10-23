@@ -12,6 +12,7 @@ namespace WitchSaga.ConsoleApp
     {
         static void Main(string[] args)
         {
+            #region Serilog Configuration
             var builder = new ConfigurationBuilder();
             BuildConfig(builder);
 
@@ -20,10 +21,11 @@ namespace WitchSaga.ConsoleApp
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .CreateLogger();
+            #endregion
 
             Log.Logger.Information("Witch Saga Application console starting");
 
-            //configure services
+            #region Setup DI
             var host = Host.CreateDefaultBuilder()
                 .ConfigureServices((context, services) =>
                 {
@@ -33,6 +35,8 @@ namespace WitchSaga.ConsoleApp
                 .Build();
 
             var svc = ActivatorUtilities.CreateInstance<KillService>(host.Services);
+            #endregion
+
             svc.Run();
 
         }
